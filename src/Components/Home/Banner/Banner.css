@@ -1,0 +1,57 @@
+.banner-container-ven {
+    position: relative;
+    height: 500px;
+    width: 100%;
+  }
+  
+  .banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(21 174 3 / 81%) 0%, rgb(0 0 0 / 77%) 100%);
+  }
+  
+  .banner-text {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    margin-top: 100px;
+    color: white;
+    padding: 2% 4%;
+  }
+  .slide-img{
+    border-radius: 15px;
+    display: inline;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .banner-container-ven {
+        position: relative;
+        height: 250px;
+        width: 100%;
+    }
+    .slide-img{
+        display: none;
+      }
+    .banner-text {
+        position: relative;
+        z-index: 1;
+        text-align: left;
+        margin-top: 50px;
+        color: white;
+        padding: 5px 5px;
+    }
+  }
+
+  
